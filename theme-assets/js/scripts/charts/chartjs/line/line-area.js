@@ -55,7 +55,7 @@ $(window).on("load", function(){
         }
     };
 
-    // Chart Data
+    // Chart Data - None
     var chartData = {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [{

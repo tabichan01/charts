@@ -60,7 +60,7 @@ $(window).on("load", function(){
         }
     };
 
-    // Chart Data
+    // Chart Data - Column Chart 
     var chartData = {
         labels: ["January", "February", "March", "April", "May", "June"],
         datasets: [{

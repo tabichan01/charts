@@ -53,7 +53,7 @@ $(window).on("load", function(){
         }
     };
 
-    // Chart Data
+    // Chart Data - Line Chart NONE
     var chartData = {
         labels: ["January", "February", "March", "April", "May"],
         datasets: [{

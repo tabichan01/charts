@@ -22,7 +22,7 @@ $(window).on("load", function(){
         responsiveAnimationDuration:500,
     };
 
-    // Chart Data
+    // Chart Data - Pie Chart
     var chartData = {
         labels: ["January", "February", "March", "April", "May"],
         datasets: [{
