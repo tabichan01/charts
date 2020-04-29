@@ -60,22 +60,27 @@ $(window).on("load", function(){
         }
     };
 
-    // Chart Data - Column Chart 
+    // Chart Data - Column Chart
     var chartData = {
-        labels: ["January", "February", "March", "April", "May", "June"],
+        labels: ["24 April", "25 April", "26 April", "27 April", "28 April", "29 April"],
         datasets: [{
-            label: "2017",
-            data: [65, 85, 40, 81, 56, 75],
+            label: "Hospitalised",
+            data: [1229, 1214, 1311, 1451, 1889, 2000],
             backgroundColor: "#28D094",
             hoverBackgroundColor: "rgba(40,208,148,.9)",
             borderColor: "transparent"
         }, {
-            label: "2018",
-            data: [45, 65, 65, 19, 86, 35],
+            label: "In Community Service",
+            data: [9878, 10465, 11241, 11863, 11920, 12000],
             backgroundColor: "#FF4961",
             hoverBackgroundColor: "rgba(255,73,97,.9)",
             borderColor: "transparent"
-        }]
+        }, {
+            label: "Recovered Cases",
+            data: [956, 1002, 1060, 1095, 1128, 1200],
+            backgroundColor: "#purple",
+            hoverBackgroundColor: "purple",
+            borderColor: "transparent"}]
     };
 
     var config = {

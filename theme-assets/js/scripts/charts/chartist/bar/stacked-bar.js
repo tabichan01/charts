@@ -1,12 +1,4 @@
-/*=========================================================================================
-    File Name: stacked-bar.js
-    Description: Chartisrt stacked bar chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.0
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
+
 
 // Stacked bar chart
 // ------------------------------
@@ -29,7 +21,7 @@ $(window).on("load", function(){
             showLabel: false,
             offset: 0
         },
-        
+
     });
      stackedBar1.on('draw', function (data) {
         if (data.type === 'bar') {
@@ -37,7 +29,7 @@ $(window).on("load", function(){
                 style: 'stroke-width: 30px',
                 x1: data.x1 + 0.001
             });
-            
+
         }
         else if (data.type === 'label') {
             data.element.attr({

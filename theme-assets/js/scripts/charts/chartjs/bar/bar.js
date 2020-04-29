@@ -1,12 +1,3 @@
-/*=========================================================================================
-    File Name: bar.js
-    Description: Chartjs bar chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.0
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
 
 // Bar chart
 // ------------------------------
@@ -55,23 +46,23 @@ $(window).on("load", function(){
             }]
         },
         title: {
-            display: false,
-            text: 'Chart.js Horizontal Bar Chart'
+            display: true,
+            text: 'Singapore'
         }
     };
 
     // Chart Data - Bar Chart
     var chartData = {
-        labels: ["January", "February", "March", "April"],
+        labels: ["15 February","19 February", "15 March", "30 March", "15 April", "30 April"],
         datasets: [{
-            label: "2017",
-            data: [65, 59, 80, 81],
+            label: "Active Cases",
+            data: [54, 30, 121, 683,3037, 13809],
             backgroundColor: "#28D094",
             hoverBackgroundColor: "rgba(40,208,148,.9)",
             borderColor: "transparent"
         }, {
-            label: "2018",
-            data: [28, 48, 40, 19],
+            label: "Total Cases",
+            data: [72, 102, 226, 926, 3699, 13624],
             backgroundColor: "#FF4961",
             hoverBackgroundColor: "rgba(255,73,97,.9)",
             borderColor: "transparent"

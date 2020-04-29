@@ -51,16 +51,16 @@ $(window).on("load", function(){
         },
         title: {
             display: true,
-            text: 'Chart.js Line Chart - Legend'
+            text: 'Sinagpore - Legend'
         }
     };
 
-    // Chart Data - Line Chart 
+    // Chart Data - Line Chart
     var chartData = {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        labels: ["23 April", "24 April", "25 April", "26 April", "27 April", "28 April", "29 April"],
         datasets: [{
-            label: "My First dataset",
-            data: [65, 59, 80, 81, 56, 55, 40],
+            label: "New Cases",
+            data: [1037, 897, 618, 931, 799, 528, 40],
             fill: false,
             borderDash: [5, 5],
             borderColor: "#9C27B0",
@@ -70,8 +70,8 @@ $(window).on("load", function(){
             pointHoverBorderWidth: 2,
             pointRadius: 4,
         }, {
-            label: "My Second dataset",
-            data: [28, 48, 40, 19, 86, 27, 90],
+            label: "Cases in Community",
+            data: [25, 25, 9, 18, 18, 10, 90],
             fill: false,
             borderDash: [5, 5],
             borderColor: "#00A5A8",
@@ -81,8 +81,8 @@ $(window).on("load", function(){
             pointHoverBorderWidth: 2,
             pointRadius: 4,
         }, {
-            label: "My Third dataset - No bezier",
-            data: [45, 25, 16, 36, 67, 18, 76],
+            label: "Work Permit Holders",
+            data: [982, 602, 609, 911, 781, 518, 76],
             lineTension: 0,
             fill: false,
             borderColor: "#FF7D4D",

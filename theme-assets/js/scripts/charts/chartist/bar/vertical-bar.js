@@ -1,13 +1,3 @@
-/*=========================================================================================
-    File Name: vertical-bar.js
-    Description: Chartist vertical bar chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.0
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
-
 // Vertical bar chart
 // ------------------------------
 $(window).on("load", function () {
@@ -215,8 +205,5 @@ $(window).on("load", function () {
         });
         return defs;
     });
-
-    
- 
 
 });

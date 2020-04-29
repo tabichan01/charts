@@ -1,13 +1,3 @@
-/*=========================================================================================
-    File Name: line.js
-    Description: Chartist simple line chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.0
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
-
 // Line chart
 // ------------------------------
 $(window).on("load", function () {
@@ -55,7 +45,7 @@ $(window).on("load", function () {
                 divisor: 2
             }),
             plugins: [
-                Chartist.plugins.tooltip({                   
+                Chartist.plugins.tooltip({
                     appendToBody: true,
                     pointClass: 'ct-point-circle'
                   })
@@ -145,7 +135,7 @@ $(window).on("load", function () {
                 divisor: 2
             }),
             plugins: [
-                Chartist.plugins.tooltip({                   
+                Chartist.plugins.tooltip({
                     appendToBody: true,
                     pointClass: 'ct-point-circle-transperent'
                   })

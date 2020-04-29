@@ -1,12 +1,4 @@
-/*=========================================================================================
-    File Name: doughnut.js
-    Description: Chartjs simple doughnut chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.0
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
+
 
 // Doughnut chart
 // ------------------------------
@@ -22,12 +14,12 @@ $(window).on("load", function(){
         responsiveAnimationDuration:500,
     };
 
-    // Chart Data - Doughnut 
+    // Chart Data - Doughnut
     var chartData = {
-        labels: ["January", "February", "March", "April", "May"],
+        labels: [ "SARS(2003)","H1N1(2009)", "COVID-19 (2020)"],
         datasets: [{
             label: "My First dataset",
-            data: [65, 35, 24, 45, 85],
+            data: [33, 21, 14],
             backgroundColor: ['#666EE8', '#28D094', '#FF4961','#1E9FF2', '#FF9149'],
         }]
     };
