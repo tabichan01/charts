@@ -16,10 +16,10 @@ $(window).on("load", function(){
 
     // Chart Data - Doughnut
     var chartData = {
-        labels: [ "SARS(2003)","H1N1(2009)", "COVID-19 (2020)"],
+        labels: [ "SARS(2003)", "COVID-19 (2020)","H1N1(2009)"],
         datasets: [{
             label: "My First dataset",
-            data: [33, 21, 14],
+            data: [33, 23,21],
             backgroundColor: ['#666EE8', '#28D094', '#FF4961','#1E9FF2', '#FF9149'],
         }]
     };

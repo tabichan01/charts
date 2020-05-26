@@ -18,50 +18,66 @@
     <!-- BEGIN Page Level CSS-->
     <link rel="stylesheet" type="text/css" href="theme-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="theme-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
     <!-- END Custom CSS-->
   </head>
   <body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click" data-menu="vertical-menu" data-color="bg-gradient-x-purple-blue" data-col="2-columns">
 
-    <!-- Bar Chart -->
-    <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Active Cases vs Total Cases</h4>
-                    <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
-                    <div class="heading-elements">
-                        <ul class="list-inline mb-0">
-                            <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
-                            <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
-                            <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
-                            <li><a data-action="close"><i class="ft-x"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-content collapse show">
-                    <div class="card-body">
-                            <div class="height-400">
-                        <canvas id="bar-chart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="row tm-section">
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+       <div class="card">
+           <div class="card-header">
+               <h4 class="card-title">Active Cases vs Total Cases</h4>
+               <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+               <div class="heading-elements">
+                   <ul class="list-inline mb-0">
+                       <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                       <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                       <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                       <li><a data-action="close"><i class="ft-x"></i></a></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="card-content collapse show">
+               <div class="card-body">
+                       <div class="height-400">
+                   <canvas id="bar-chart"></canvas>
+                   </div>
+               </div>
+           </div>
+       </div>
     </div>
-
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+      <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+        <p  class="tm-text-color-white ">Based on the month from February to May, the number of total cases and active cases are gradually increasing drastically.
+        Based on the chart, 15 May the total number of total cases have exceeded 25,000 which tallies to the amount of people in 2 polytechnic institution.  </p>
+      </div>
+    </div>
   </section>
+
     <!-- ////////////////////////////////////////////////////////////////////////////-->
-
-
 <section id="chartjs-bar-charts">
     <!-- Column Chart -->
+  <section class="row tm-section tm-col-md-reverse">
+
+    <div class="col-sm-10 col-md-10 col-lg-6 col-xl-6 p-0">
+        <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+          <p class="tm-text-color-white">Based on this chart, the number of cases in Isolation Facilitis is increasingly more compared to both hospitalised cases
+            and recovered cases. Adding on, between April and May, there have been significant improvement in the number of recovered cases which infers that Singapore has a high recovery rate towards this Covid-19.
+           </p>
+        </div>
+      </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
     <div class="row">
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Recovered Cases vs Death Cases</h4>
+                    <h4 class="card-title">Active Cases vs Recovered Cases</h4>
                     <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
                     <div class="heading-elements">
                         <ul class="list-inline mb-0">
@@ -82,73 +98,100 @@
             </div>
         </div>
     </div>
+  </div>
+  </section>
 
 
 <!-- // Bar charts section end -->
 
-<!-- line chart section start -->
-<!-- <section id="chartjs-line-charts">
-    <!-- Line Chart -->
-    <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Covid-19 Daily Update</h4>
-                    <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
-                    <div class="heading-elements">
-                        <ul class="list-inline mb-0">
-                            <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
-                            <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
-                            <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
-                            <li><a data-action="close"><i class="ft-x"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-content collapse show">
-                    <div class="card-body chartjs">
-                            <div class="height-500">
-                        <canvas id="line-chart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- 3rd Section -->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+
+
+      <div class="row">
+          <div class="col-12">
+              <div class="card">
+                  <div class="card-header">
+                      <h4 class="card-title">Covid-19 Daily Update</h4>
+                      <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                      <div class="heading-elements">
+                          <ul class="list-inline mb-0">
+                              <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                              <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                              <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                              <li><a data-action="close"><i class="ft-x"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="card-content collapse show">
+                      <div class="card-body chartjs">
+                              <div class="height-500">
+                          <canvas id="line-chart"></canvas>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+      <p  class="tm-text-color-white ">Based on this Daily report, it shows that the number of cases within the work permit holders have taken up 96% of the dailt cases in the community.
+      This proves that the local transmission between citizens are low.</p>
     </div>
 
+  </div>
 </section>
+
+
 <!-- // line chart section end -->
 
 <!-- Pie charts section start -->
-<section id="chartjs-pie-charts">
-    <div class="row">
-        <!-- Simple Pie Chart -->
 
-        <!-- Simple Doughnut Chart -->
-        <div class="col-md-6 col-sm-12">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Sinagpore Pandemic History - Death Cases</h4>
-                    <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
-                    <div class="heading-elements">
-                        <ul class="list-inline mb-0">
-                            <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
-                            <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
-                            <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
-                            <li><a data-action="close"><i class="ft-x"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-content collapse show">
-                    <div class="card-body">
-                            <div class="height-400">
-                        <canvas id="simple-doughnut-chart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<section id="chartjs-pie-charts">
+<section class="row tm-section tm-col-md-reverse">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+        <p class="tm-text-color-white"> Comparing the 3 most recent Pandemic Cases, SARS holds the highest number of death cases in Singapore followed by COVID-19. This may not be accurate as Covid-19 is still a on-going disease. </p>
+      </div>
     </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+
+  <div class="row">
+      <!-- Simple Pie Chart -->
+      <!-- Simple Doughnut Chart -->
+  <div class="col-12">
+          <div class="card">
+              <div class="card-header">
+                  <h4 class="card-title">Sinagpore Pandemic History - Death Cases</h4>
+                  <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                  <div class="heading-elements">
+                      <ul class="list-inline mb-0">
+                          <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                          <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                          <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                          <li><a data-action="close"><i class="ft-x"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card-content collapse show">
+                  <div class="card-body">
+                          <div class="height-400">
+                      <canvas id="simple-doughnut-chart"></canvas>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 </section>
+
 <!-- // Pie charts section end -->
 
         </div>

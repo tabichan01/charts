@@ -57,10 +57,10 @@ $(window).on("load", function(){
 
     // Chart Data - Line Chart
     var chartData = {
-        labels: ["23 April", "24 April", "25 April", "26 April", "27 April", "28 April", "29 April"],
+        labels: ["25 April", "30 April", "5 May", "10 May", "15 May ", "20 May"],
         datasets: [{
             label: "New Cases",
-            data: [1037, 897, 618, 931, 799, 528, 40],
+            data: [618, 528, 632, 876, 793, 570],
             fill: false,
             borderDash: [5, 5],
             borderColor: "#9C27B0",
@@ -71,7 +71,7 @@ $(window).on("load", function(){
             pointRadius: 4,
         }, {
             label: "Cases in Community",
-            data: [25, 25, 9, 18, 18, 10, 90],
+            data: [ 9, 31, 15, 11, 1, 8],
             fill: false,
             borderDash: [5, 5],
             borderColor: "#00A5A8",
@@ -82,7 +82,7 @@ $(window).on("load", function(){
             pointRadius: 4,
         }, {
             label: "Work Permit Holders",
-            data: [982, 602, 609, 911, 781, 518, 76],
+            data: [ 602, 488, 605, 860, 791, 562],
             lineTension: 0,
             fill: false,
             borderColor: "#FF7D4D",

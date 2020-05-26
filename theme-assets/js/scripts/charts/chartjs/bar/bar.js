@@ -53,16 +53,16 @@ $(window).on("load", function(){
 
     // Chart Data - Bar Chart
     var chartData = {
-        labels: ["15 February","19 February", "15 March", "30 March", "15 April", "30 April"],
+        labels: ["19 February", "15 March", "30 March", "15 April", "30 April", "15 May",],
         datasets: [{
             label: "Active Cases",
-            data: [54, 30, 121, 683,3037, 13809],
+            data: [30, 121, 683,3037, 14910, 19622],
             backgroundColor: "#28D094",
             hoverBackgroundColor: "rgba(40,208,148,.9)",
             borderColor: "transparent"
         }, {
             label: "Total Cases",
-            data: [72, 102, 226, 926, 3699, 13624],
+            data: [102, 226, 926, 3699, 16169, 26891],
             backgroundColor: "#FF4961",
             hoverBackgroundColor: "rgba(255,73,97,.9)",
             borderColor: "transparent"

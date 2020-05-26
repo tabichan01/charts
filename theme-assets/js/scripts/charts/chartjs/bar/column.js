@@ -62,22 +62,23 @@ $(window).on("load", function(){
 
     // Chart Data - Column Chart
     var chartData = {
-        labels: ["24 April", "25 April", "26 April", "27 April", "28 April", "29 April"],
+        labels: ["25 April", "30 April", "5 May", "10 May", "15 May ", "20 May"],
+
         datasets: [{
             label: "Hospitalised",
-            data: [1229, 1214, 1311, 1451, 1889, 2000],
+            data: [1214, 1708, 1584,1097, 1124, 954],
             backgroundColor: "#28D094",
             hoverBackgroundColor: "rgba(40,208,148,.9)",
             borderColor: "transparent"
         }, {
-            label: "In Community Service",
-            data: [9878, 10465, 11241, 11863, 11920, 12000],
+            label: "In Isolation Facilities",
+            data: [10465, 13202, 16289,19498, 18498, 17181],
             backgroundColor: "#FF4961",
             hoverBackgroundColor: "rgba(255,73,97,.9)",
             borderColor: "transparent"
         }, {
             label: "Recovered Cases",
-            data: [956, 1002, 1060, 1095, 1128, 1200],
+            data: [ 1002, 1244, 1519,2721, 7248, 11207],
             backgroundColor: "#purple",
             hoverBackgroundColor: "purple",
             borderColor: "transparent"}]
